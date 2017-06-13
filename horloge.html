@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Horloge</title>
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+</head>
+
+<body>
+<div id="conteneur">
+	<div id="horloge">
+		<span id="hours" class="rond"></span>
+		<span id="minutes" class="rond"></span>
+		<span id="seconds" class="rond"></span>
+	</div>
+</div>
+	<div id="controls">
+		<button class="changeOffset" data-offset=3600 > +1 h </button>
+		<button class="changeOffset" data-offset=-3600 > -1 h </button>
+
+		<button class="changeOffset" data-offset=60 > +1 m </button>
+		<button class="changeOffset" data-offset=-60 > -1 m </button>
+
+		<button class="changeOffset" data-offset=10 > +10s </button>
+		<button class="changeOffset" data-offset=-10 > -10s </button>
+
+		<button id="toggleClock" class="button"> Play </button>
+		<button id="reset" class="button"> Reset </button>
+	</div>
+
+
+<script src="js/horloge.js"></script>
+	
+</body>
+</html>

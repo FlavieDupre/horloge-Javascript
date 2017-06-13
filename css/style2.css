@@ -1,0 +1,86 @@
+body
+{
+	margin: 70px 0 ;
+	padding: 0 ;
+	text-align: center ;
+	font: 2em "Trebuchet MS", helvetica, sans-serif ;
+
+}
+
+div#conteneur
+{
+	width: 200px ;
+	padding: 10px ;
+	margin:auto;
+	border: 2px solid #390747 ;
+	background: #deaaed ;
+	border-radius: 6px ;
+}
+
+ p
+{
+	text-align: justify ;
+	text-indent: 2em ;
+	line-height: 1.7em ;
+}
+
+.changeOffset{
+    background-color: #390747; 
+    background: linear-gradient( #72178c, #390747);
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 4px ;
+    text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba( 66, 14, 76, 0.5),
+                 0 -1px 0 rgba( 255, 255, 255, 0.4);
+}
+
+.changeOffset:hover{
+     color: white;
+     background: #390747;
+     background: linear-gradient(#a221c6, #72178c);
+}
+
+.changeOffset:active{
+     color: #d699e8;
+     background: #4b3c4f;
+     background: linear-gradient( #4b3c4f, #390747);
+     box-shadow: 1px 1px 10px black inset, 
+                 0 1px 0 rgba( 255, 255, 255, 0.4);
+}
+
+.button{
+    background-color: #390747; 
+    background: linear-gradient( #72178c, #390747);
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 4px ;
+    text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba( 66, 14, 76, 0.5),
+                 0 -1px 0 rgba( 255, 255, 255, 0.4);
+}
+
+.button:hover{
+     color: white;
+     background: #390747;
+     background: linear-gradient(#a221c6, #72178c);
+}
+
+.button:active{
+     color: #d699e8;
+     background: #4b3c4f;
+     background: linear-gradient( #4b3c4f, #390747);
+     box-shadow: 1px 1px 10px black inset, 
+                 0 1px 0 rgba( 255, 255, 255, 0.4);
+}
+
